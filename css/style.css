@@ -13,3 +13,7 @@ body {
 	align-items: center;
 	background-color: #ededed;
 }
+
+#head img {
+	background-color:inherit;
+}
