@@ -7,9 +7,9 @@ body {
 
 #head {
 	width:inherit;
-	height:512px;
+	height:415px;
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #dddddd;
+	background-color: #ededed;
 }
