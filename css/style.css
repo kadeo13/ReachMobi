@@ -2,6 +2,7 @@ body {
 	width:1440px;
 	height:2560px;
 	border: 1px solid black;
+	border-radius:25px;
 }
 
 #head {
@@ -10,5 +11,5 @@ body {
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	border-bottom: 1px solid #dddddd;
+	background-color: 1px solid #dddddd;
 }
