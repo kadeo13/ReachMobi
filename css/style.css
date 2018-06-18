@@ -31,4 +31,5 @@ body {
 
 #slogan h1, h2 {
 	margin:0px;
+	border: 1px solid black;
 }
