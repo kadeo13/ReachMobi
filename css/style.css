@@ -3,3 +3,11 @@ body {
 	height:2560px;
 	border: 1px solid black;
 }
+
+#head {
+	width:inherit;
+	height:512px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
