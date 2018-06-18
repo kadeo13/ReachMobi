@@ -3,6 +3,7 @@ body {
 	height:2560px;
 	border: 1px solid black;
 	border-radius:25px;
+	overflow:hidden;
 }
 
 #head {
