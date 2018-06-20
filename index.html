@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Reach Mobi App Prototype</title>
+</head>
+<body>
+<div class="screen">
+<div id="head" class="tab">
+  <div id="logoContainer">
+    <img src="img/logo2.png" alt="Tune Snoop Logo"></img>
+    <div id="slogan">
+       <h1>Hunters use bloodhounds</h1>
+       <h1>We use soundhounds</h1>
+    </div>
+  </div>
+</div>
+<div id="main">
+  <div id="homeScreen" class="mainScreen">
+    <div id="searchForm">
+      <div class="form-group">
+        <input type="text" class="form-control" id="searchBox" placeholder="Search...">
+      </div>
+      <button type="button" class="btn btn-primary" id="searchButton">Search iTunes</button>
+    </div>
+    <div id="results">
+    </div>
+  </div>
+  <div id="historyScreen" class="mainScreen">
+    <div id="historyResults">
+      <h1 id="none">No history</h1>
+    </div>
+  </div>
+  <div id="settingsScreen" class="mainScreen">
+    <h1>Amount of Searches: <span id="searchAmount">0</span></h1>
+    <h1>Amount of Result Clicks: <span id="resultAmount">0</span></h1>
+    <h1>Clicks per Result: <span id="clicksPer">0</span></h1>
+  </div>
+</div>
+<div id="foot" class="tab">
+  <img src="img/home.png" alt="Home" class="icon selected" id="home"></img>
+  <img src="img/history.png" alt="History" class="icon" id="history"></img>
+  <img src="img/settings.png" alt="Settings" class="icon" id="settings"></img>
+</div>
+</div>
+</body>
+</html>
